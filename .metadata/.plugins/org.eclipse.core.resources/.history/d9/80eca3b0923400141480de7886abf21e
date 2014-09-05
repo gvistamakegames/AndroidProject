@@ -11,7 +11,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
 	int touchCount;
 	
     @Override
-    // コンストラクタの代わりとして
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         button = new Button( this );
@@ -32,7 +31,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 	
     public void onClick( View v ){
     	touchCount++;
-    	button.setText( "Touched Me　" + touchCount + "　time(s)" );
+    	button.setText( "Touched Me" + touchCount + "time(s)" );
     }
     
 }

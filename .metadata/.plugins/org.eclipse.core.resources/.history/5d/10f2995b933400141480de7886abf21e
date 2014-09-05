@@ -32,7 +32,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 	
     public void onClick( View v ){
     	touchCount++;
-    	button.setText( "Touched MeÅ@" + touchCount + "Å@time(s)" );
+    	button.setText( "Touched Me" + touchCount + "time(s)" );
     }
     
 }
