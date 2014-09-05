@@ -1,0 +1,8 @@
+package com.baseproject.framework;
+
+// ゲームインターフェース
+public interface Game {
+
+	
+	
+}
