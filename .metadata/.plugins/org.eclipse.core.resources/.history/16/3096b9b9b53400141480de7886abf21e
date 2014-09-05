@@ -1,0 +1,10 @@
+package com.baseproject.framework;
+
+import com.baseproject.framework.Graphics.PixmapFormat;
+
+// ピクセルマップインターフェース
+public interface Pixmap {
+
+	
+	
+}

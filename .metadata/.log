@@ -55,3 +55,12 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 4 2014-09-05 09:41:11.439
+!MESSAGE 参照部分はまだ存在しません: org.eclipse.ui.views.ProblemView。
+
+!ENTRY org.eclipse.ui 4 4 2014-09-05 09:49:22.600
+!MESSAGE 参照部分はまだ存在しません: org.eclipse.ui.views.ProblemView。
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 10:25:31.118
+!MESSAGE Failed to load properties file for project 'BaseProject'

@@ -1,0 +1,5 @@
+package com.baseproject.framework;
+
+public interface Fileio {
+
+}

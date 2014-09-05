@@ -1,0 +1,14 @@
+package com.baseproject.framework;
+
+public interface Graphics {
+
+	public static enum PixmapFormat {
+		
+		ARGB8888, ATGB4444, RGB565
+		
+	}
+	
+	public Pixmap newPixmap( String _fileName, PixmapFormat _format );
+	
+	
+}

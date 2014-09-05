@@ -1,0 +1,7 @@
+package com.baseproject.framework;
+
+// オーディオインターフェース
+public interface Audio {
+	
+
+}
