@@ -9,6 +9,7 @@ import android.view.Menu;
 // メインアクティビィティ
 public class MainActivity extends Activity {
 
+	//
 	@Override
 	protected void onCreate( Bundle _savedInstanceState ) {
 		
@@ -17,6 +18,7 @@ public class MainActivity extends Activity {
 		
 	}
 
+	//
 	@Override
 	public boolean onCreateOptionsMenu( Menu _menu ) {
 		

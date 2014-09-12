@@ -8,12 +8,14 @@ import android.media.MediaPlayer.OnCompletionListener;
 
 import com.baseproject.framework.Interface.Music;
 
+//
 public class AndroidMusic implements Music, OnCompletionListener {
 
 	// ïœêîêÈåæ
 	MediaPlayer mediaPlayer;
 	boolean isPrepared = false;
 	
+	//
 	public AndroidMusic( AssetFileDescriptor assetDescriptor ){
 		
 		mediaPlayer = new MediaPlayer();
@@ -33,6 +35,7 @@ public class AndroidMusic implements Music, OnCompletionListener {
 		
 	}
 	
+	//
 	@Override
 	public void dispose(){
 		
@@ -44,6 +47,7 @@ public class AndroidMusic implements Music, OnCompletionListener {
 				
 	}
 	
+	//
 	@Override
 	public boolean isLooping(){
 		
@@ -51,6 +55,7 @@ public class AndroidMusic implements Music, OnCompletionListener {
 		
 	}
 	
+	//
 	@Override
 	public boolean isPlaying(){
 		
@@ -58,6 +63,7 @@ public class AndroidMusic implements Music, OnCompletionListener {
 		
 	}
 	
+	//
 	@Override
 	public boolean isStopped(){
 		
@@ -65,6 +71,7 @@ public class AndroidMusic implements Music, OnCompletionListener {
 		
 	}	
 	
+	//
 	@Override
 	public void pause(){
 		
@@ -76,6 +83,7 @@ public class AndroidMusic implements Music, OnCompletionListener {
 		
 	}
 	
+	//
 	@Override
 	public void play(){
 		
@@ -127,6 +135,7 @@ public class AndroidMusic implements Music, OnCompletionListener {
 		
 	}
 	
+	//
 	@Override
 	public void stop(){
 		
@@ -140,6 +149,7 @@ public class AndroidMusic implements Music, OnCompletionListener {
 		
 	}
 	
+	//
 	@Override
 	public void onCompletion( MediaPlayer _player ){
 		

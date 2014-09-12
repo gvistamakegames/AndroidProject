@@ -1,0 +1,15 @@
+package Class;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Pool<T> {
+
+	public interface PoolObjectfactory<T>{
+		
+		public T createObject();
+		
+	}
+	
+	
+}

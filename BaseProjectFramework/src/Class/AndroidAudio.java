@@ -12,12 +12,14 @@ import com.baseproject.framework.Interface.Audio;
 import com.baseproject.framework.Interface.Music;
 import com.baseproject.framework.Interface.Sound;
 
+//
 public class AndroidAudio implements Audio  {
 
 	// ïœêîêÈåæ
 	AssetManager assets;
 	SoundPool soundPool;
 	
+	//
 	public AndroidAudio( Activity _activity ){
 		
 		_activity.setVolumeControlStream( AudioManager.STREAM_MUSIC );
@@ -26,6 +28,7 @@ public class AndroidAudio implements Audio  {
 		
 	}
 	
+	//
 	@Override
 	public Music newMusic( String _fileName ){
 		
@@ -42,6 +45,7 @@ public class AndroidAudio implements Audio  {
 		
 	}
 	
+	//
 	@Override
 	public Sound newSound( String _fileName ){
 		
@@ -58,9 +62,5 @@ public class AndroidAudio implements Audio  {
 		}
 		
 	}
-	
-	
-	
-	
 	
 }

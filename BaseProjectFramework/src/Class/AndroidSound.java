@@ -4,12 +4,14 @@ import android.media.SoundPool;
 
 import com.baseproject.framework.Interface.Sound;
 
+//
 public class AndroidSound implements Sound {
 
 	// •Ï”éŒ¾
 	int soundID;
 	SoundPool soundPool;
 	
+	//
 	public AndroidSound( SoundPool _soundPool, int _soundID ){
 
 		this.soundPool = _soundPool;		
@@ -17,6 +19,7 @@ public class AndroidSound implements Sound {
 		
 	}
 	
+	//
 	@Override
 	public void play( float _volume ){
 		
@@ -24,6 +27,7 @@ public class AndroidSound implements Sound {
 		
 	}
 	
+	//
 	@Override
 	public void dispose(){
 	

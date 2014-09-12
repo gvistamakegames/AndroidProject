@@ -30,22 +30,31 @@ public interface Input {
 		
 	}
 	
+	//
 	public boolean isKeyPressed( int _keyCode );
 	
+	//
 	public boolean isTouchDown( int _pointer );
 	
+	//
 	public int getTouchX( int _pointer );
 	
+	//
 	public int getTouchY( int _pointer );
 	
+	//
 	public float getAccelX();
 	
+	//
 	public float getAccelY();
 	
+	//
 	public float getAccelZ();
 	
+	//
 	public List<KeyEvent> getKeyEvents();
 	
+	//
 	public List<TouchEvent> getTouchEvents();
 
 }

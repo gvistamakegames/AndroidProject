@@ -12,12 +12,14 @@ import android.os.Environment;
 
 import com.baseproject.framework.Interface.FileIO;
 
+//
 public class AndroidFileIO implements FileIO  {
 
 	// ïœêîêÈåæ
 	AssetManager assets;
 	String externalStoragePath;
 	
+	//
 	public AndroidFileIO( AssetManager _assets ){
 		
 		this.assets = _assets;
@@ -25,6 +27,7 @@ public class AndroidFileIO implements FileIO  {
 		
 	}
 	
+	//
 	@Override
 	public InputStream readAsset( String _fileName ) throws IOException {
 		
@@ -32,6 +35,7 @@ public class AndroidFileIO implements FileIO  {
 		
 	}
 	
+	//
 	@Override
 	public InputStream readFile( String _fileName ) throws IOException {
 		
@@ -39,6 +43,7 @@ public class AndroidFileIO implements FileIO  {
 		
 	}
 	
+	//
 	@Override
 	public OutputStream writeFile( String _fileName ) throws IOException{
 		
