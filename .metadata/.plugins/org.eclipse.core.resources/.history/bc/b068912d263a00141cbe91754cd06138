@@ -1,0 +1,35 @@
+package Class;
+
+import java.io.IOException;
+
+import android.content.res.AssetFileDescriptor;
+import android.media.MediaPlayer;
+import android.media.MediaPlayer.OnCompletionListener;
+
+import com.baseproject.framework.Interface.Music;
+
+public class AndroidMusic implements Music, OnCompletionListener {
+
+	// ïœêîêÈåæ
+	MediaPlayer mediaPlayer;
+	boolean isPrepared = false;
+	
+	public AndroidMusic( AssetFileDescriptor assetDescriptor ){
+		
+		mediaPlayer = new MediaPlayer();
+		
+		try{
+			
+			mediaPlayer.setDataSource( assetDescriptor.getFileDescriptor(), assetDescriptor.getStartOffset(), assetDescriptor.getLength() );
+			mediaPlayer.prepare();
+			isPrepared = true;
+			
+		}catch( Exception e ){
+ 			
+		}
+		
+	}
+	
+	
+	
+}

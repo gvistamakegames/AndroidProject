@@ -1,0 +1,25 @@
+package Class;
+
+import java.io.IOException;
+
+import android.app.Activity;
+import android.content.res.AssetFileDescriptor;
+import android.content.res.AssetManager;
+import android.media.AudioManager;
+import android.media.SoundPool;
+
+import com.baseproject.framework.Interface.Audio;
+import com.baseproject.framework.Interface.Music;
+import com.baseproject.framework.Interface.Sound;
+
+public class AndroidAudio implements Audio  {
+
+	AssetManager assets;
+	SoundPool soundPool;
+	
+	
+	
+	
+	
+	
+}

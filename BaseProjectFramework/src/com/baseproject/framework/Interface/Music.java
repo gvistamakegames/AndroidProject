@@ -15,7 +15,7 @@ public interface Music {
 	
 	public boolean isPlaying();
 	
-	public boolean isStopping();
+	public boolean isStopped();
 	
 	public boolean isLooping();
 	

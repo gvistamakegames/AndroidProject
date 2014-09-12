@@ -1,0 +1,20 @@
+package Class;
+
+import android.media.SoundPool;
+
+import com.baseproject.framework.Interface.Sound;
+
+public class AndroidSound implements Sound {
+
+	int soundID;
+	SoundPool soundPool;
+	
+	public AndroidSound( SoundPool _soundPool, int _soundID ){
+
+		this.soundPool = _soundPool;		
+		this.soundID = _soundID;
+		
+	}
+	
+	
+}
