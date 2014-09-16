@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="16" version="2.0">
 <workbenchAdvisor/>
 <window height="849" maximized="true" width="806" x="6" y="3">
 <fastViewData fastViewLocation="1024"/>
@@ -18,7 +18,7 @@
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="78" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="jp.sourceforge.mergedoc.pleiades.toolbar" itemType="typeToolBarContribution" x="38" y="22"/>
@@ -39,17 +39,32 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pixmap.java" partName="Pixmap.java" path="C:/Users/g_vista/Desktop/AndroidProject/eclipse/workspace/BaseProjectFramework/src/com/baseproject/framework/Interface/Pixmap.java" title="Pixmap.java" tooltip="BaseProjectFramework/src/com/baseproject/framework/Interface/Pixmap.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BaseProjectFramework/src/com/baseproject/framework/Interface/Pixmap.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="220" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AndroidFileIO.java" partName="AndroidFileIO.java" path="C:/Users/g_vista/Desktop/AndroidProject/eclipse/workspace/BaseProjectFramework/src/Class/AndroidFileIO.java" title="AndroidFileIO.java" tooltip="BaseProjectFramework/src/Class/AndroidFileIO.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AndroidFileIO.java" partName="AndroidFileIO.java" path="C:/Users/g_vista/Desktop/AndroidProject/eclipse/workspace/BaseProjectFramework/src/Class/AndroidFileIO.java" title="AndroidFileIO.java" tooltip="BaseProjectFramework/src/Class/AndroidFileIO.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BaseProjectFramework/src/Class/AndroidFileIO.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="515" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="329" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AccelerometerHandler.java" partName="AccelerometerHandler.java" path="C:/Users/g_vista/Desktop/AndroidProject/eclipse/workspace/BaseProjectFramework/src/Class/AccelerometerHandler.java" title="AccelerometerHandler.java" tooltip="BaseProjectFramework/src/Class/AccelerometerHandler.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BaseProjectFramework/src/Class/AccelerometerHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="212" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pool.java" partName="Pool.java" path="C:/Users/g_vista/Desktop/AndroidProject/eclipse/workspace/BaseProjectFramework/src/Class/Pool.java" title="Pool.java" tooltip="BaseProjectFramework/src/Class/Pool.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BaseProjectFramework/src/Class/Pool.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="896" selectionTopPixel="291"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="KeyboardHandler.java" partName="KeyboardHandler.java" path="C:/Users/g_vista/Desktop/AndroidProject/eclipse/workspace/BaseProjectFramework/src/Class/KeyboardHandler.java" title="KeyboardHandler.java" tooltip="BaseProjectFramework/src/Class/KeyboardHandler.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BaseProjectFramework/src/Class/KeyboardHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2473" selectionTopPixel="1364"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SingleTouchHandler.java" partName="SingleTouchHandler.java" path="C:/Users/g_vista/Desktop/AndroidProject/eclipse/workspace/BaseProjectFramework/src/Class/SingleTouchHandler.java" title="SingleTouchHandler.java" tooltip="BaseProjectFramework/src/Class/SingleTouchHandler.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BaseProjectFramework/src/Class/SingleTouchHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="247" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -79,9 +94,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="問題">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="問題">
 <expanded>
-<category IMemento.internal.id="Warnings (8 項目)"/>
 <category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="165" org.eclipse.ui.ide.markerType="165" org.eclipse.ui.ide.pathField="220" org.eclipse.ui.ide.resourceField="165" org.eclipse.ui.ide.severityAndDescriptionField="550"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -448,162 +461,166 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BaseProjectFramework/src/com/baseproject/framework/Game.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/LifeCicleTestActivity/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LifeCicleTestActivity/src/com/example/lifecicletestactivity/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/LifeCicleTestActivity/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloWorld/src/com/android/helloworld/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LifeCicleTestActivity/gen/com/example/lifecicletestactivity/R.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LifeCicleTestActivity/gen/com/example/lifecicletestactivity/BuildConfig.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/LifeCicleTest/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LifeCicleTest/src/com/example/lifecicletest/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/LifeCicleTest/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/LifeCicleTest/res/layout/activity_life_cicle_test.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LifeCicleTest/src/com/example/lifecicletest/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LifeCicleTest/src/com/lifecicletest/LifeCicleTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BaseProjectFramework/src/Class/Pool.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BaseProjectFramework/src/com/baseproject/framework/Interface/Graphics.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BaseProjectFramework/src/com/baseproject/framework/Interface/Input.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BaseProjectFramework/src/com/baseproject/framework/Interface/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BaseProjectFramework/src/com/baseproject/framework/Interface/Music.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BaseProjectFramework/src/com/baseproject/framework/Interface/Pixmap.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BaseProjectFramework/src/Class/FileIO.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BaseProjectFramework/src/Class/AndroidFileIO.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BaseProjectFramework/src/com/baseproject/framework/Interface/Screen.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BaseProjectFramework/src/com/baseproject/framework/Interface/Sound.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BaseProjectFramework/src/Class/KeyboardHandler.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BaseProjectFramework/src/Class/SingleTouchHandler.java"/>
 </editors>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="79" y="0"/>
+<item historyLabel="Sound.java" index="7">
+<position info="not_deleted" x="141" y="0"/>
 </item>
-<item historyLabel="activity_main.xml" index="1"/>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Screen.java" index="6">
+<position info="not_deleted" x="399" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="255" y="0"/>
+<item historyLabel="Pixmap.java" index="5">
+<position info="not_deleted" x="279" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="315" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="355" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="346" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="383" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="410" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="2">
+<item historyLabel="Music.java" index="4">
 <position info="not_deleted" x="408" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="452" y="0"/>
+<item historyLabel="MainActivity.java" index="3">
+<position info="not_deleted" x="414" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="573" y="0"/>
+<item historyLabel="Input.java" index="2">
+<position info="not_deleted" x="1010" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="297" y="19"/>
+<item historyLabel="Graphics.java" index="1">
+<position info="not_deleted" x="761" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="609" y="0"/>
+<item historyLabel="Pool.java" index="0">
+<position info="not_deleted" x="765" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="652" y="0"/>
+<item historyLabel="Pool.java" index="0">
+<position/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="650" y="0"/>
+<item historyLabel="Pool.java" index="0">
+<position/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="683" y="0"/>
+<item historyLabel="Pool.java" index="0">
+<position info="not_deleted" x="896" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="749" y="0"/>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="747" y="0"/>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="345" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="797" y="0"/>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="376" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="839" y="0"/>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="394" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="425" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="467" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="469" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="487" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="523" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="525" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="581" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="623" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="665" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="667" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="722" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="593" y="0"/>
+</item>
+<item historyLabel="Pool.java" index="0">
+<position info="not_deleted" x="896" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="593" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="821" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
 <position info="not_deleted" x="837" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="886" y="0"/>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="872" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="916" y="0"/>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="914" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="924" y="0"/>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="988" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="950" y="0"/>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="1045" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="974" y="0"/>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="1126" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="972" y="0"/>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="1083" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="755" y="0"/>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="1188" y="0"/>
 </item>
-<item historyLabel="LifeCicleTestActivity Manifest" index="3"/>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="755" y="0"/>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="1319" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="4">
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="1342" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="1421" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="1663" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="1868" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="1382" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="1517" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="1553" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="1626" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="1756" y="0"/>
+</item>
+<item historyLabel="KeyboardHandler.java" index="8">
+<position info="not_deleted" x="1792" y="0"/>
+</item>
+<item active="true" historyLabel="SingleTouchHandler.java" index="9">
 <position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="755" y="0"/>
-</item>
-<item historyLabel="R.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="755" y="0"/>
-</item>
-<item historyLabel="BuildConfig.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="385" y="0"/>
-</item>
-<item historyLabel="LifeCicleTestActivity Manifest" index="3"/>
-<item historyLabel="MainActivity.java" index="2">
-<position info="not_deleted" x="0" y="992"/>
-</item>
-<item historyLabel="activity_main.xml" index="7"/>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="0" y="539"/>
-</item>
-<item historyLabel="activity_main.xml" index="7">
-<position/>
-</item>
-<item historyLabel="activity_main.xml" index="9">
-<position/>
-</item>
-<item historyLabel="activity_life_cicle_test.xml" index="10"/>
-<item historyLabel="MainActivity.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="LifeCicleTest.java" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Pixmap.java" index="13">
-<position info="not_deleted" x="220" y="0"/>
-</item>
-<item historyLabel="FileIO.java" index="14">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="AndroidFileIO.java" index="15">
-<position info="not_deleted" x="348" y="0"/>
-</item>
-<item active="true" historyLabel="AndroidFileIO.java" index="15">
-<position info="not_deleted" x="483" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -611,12 +628,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="right"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -625,55 +636,54 @@
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.HeapStatus"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileIO.java" tooltip="BaseProjectFramework/src/Class/FileIO.java">
-<persistable path="/BaseProjectFramework/src/Class/FileIO.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SingleTouchHandler.java" tooltip="BaseProjectFramework/src/Class/SingleTouchHandler.java">
+<persistable path="/BaseProjectFramework/src/Class/SingleTouchHandler.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="KeyboardHandler.java" tooltip="BaseProjectFramework/src/Class/KeyboardHandler.java">
+<persistable path="/BaseProjectFramework/src/Class/KeyboardHandler.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sound.java" tooltip="BaseProjectFramework/src/com/baseproject/framework/Interface/Sound.java">
+<persistable path="/BaseProjectFramework/src/com/baseproject/framework/Interface/Sound.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Screen.java" tooltip="BaseProjectFramework/src/com/baseproject/framework/Interface/Screen.java">
+<persistable path="/BaseProjectFramework/src/com/baseproject/framework/Interface/Screen.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pixmap.java" tooltip="BaseProjectFramework/src/com/baseproject/framework/Interface/Pixmap.java">
 <persistable path="/BaseProjectFramework/src/com/baseproject/framework/Interface/Pixmap.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LifeCicleTest.java" tooltip="LifeCicleTest/src/com/lifecicletest/LifeCicleTest.java">
-<persistable path="/LifeCicleTest/src/com/lifecicletest/LifeCicleTest.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Music.java" tooltip="BaseProjectFramework/src/com/baseproject/framework/Interface/Music.java">
+<persistable path="/BaseProjectFramework/src/com/baseproject/framework/Interface/Music.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="LifeCicleTest/src/com/example/lifecicletest/MainActivity.java">
-<persistable path="/LifeCicleTest/src/com/example/lifecicletest/MainActivity.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="BaseProjectFramework/src/com/baseproject/framework/Interface/MainActivity.java">
+<persistable path="/BaseProjectFramework/src/com/baseproject/framework/Interface/MainActivity.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_life_cicle_test.xml" tooltip="LifeCicleTest/res/layout/activity_life_cicle_test.xml">
-<persistable path="/LifeCicleTest/res/layout/activity_life_cicle_test.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Input.java" tooltip="BaseProjectFramework/src/com/baseproject/framework/Interface/Input.java">
+<persistable path="/BaseProjectFramework/src/com/baseproject/framework/Interface/Input.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="HelloWorld/src/com/android/helloworld/MainActivity.java">
-<persistable path="/HelloWorld/src/com/android/helloworld/MainActivity.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Graphics.java" tooltip="BaseProjectFramework/src/com/baseproject/framework/Interface/Graphics.java">
+<persistable path="/BaseProjectFramework/src/com/baseproject/framework/Interface/Graphics.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" tooltip="ChameleonsMealTime/src/jp/ac/kobedenshi/gamesoft/j_mizuno13/Game.java">
-<persistable path="/ChameleonsMealTime/src/jp/ac/kobedenshi/gamesoft/j_mizuno13/Game.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" tooltip="BaseProjectFramework/src/com/baseproject/framework/Interface/Game.java">
+<persistable path="/BaseProjectFramework/src/com/baseproject/framework/Interface/Game.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="BaseProjectFramework/src/com/baseproject/framework/MainActivity.java">
-<persistable path="/BaseProjectFramework/src/com/baseproject/framework/MainActivity.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileIO.java" tooltip="BaseProjectFramework/src/com/baseproject/framework/Interface/FileIO.java">
+<persistable path="/BaseProjectFramework/src/com/baseproject/framework/Interface/FileIO.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" tooltip="BaseProjectFramework/src/com/baseproject/framework/Game.java">
-<persistable path="/BaseProjectFramework/src/com/baseproject/framework/Game.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Audio.java" tooltip="BaseProjectFramework/src/com/baseproject/framework/Interface/Audio.java">
+<persistable path="/BaseProjectFramework/src/com/baseproject/framework/Interface/Audio.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameDraw.java" tooltip="ChameleonsMealTime/src/jp/ac/kobedenshi/gamesoft/j_mizuno13/GameDraw.java">
-<persistable path="/ChameleonsMealTime/src/jp/ac/kobedenshi/gamesoft/j_mizuno13/GameDraw.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AndroidSound.java" tooltip="BaseProjectFramework/src/Class/AndroidSound.java">
+<persistable path="/BaseProjectFramework/src/Class/AndroidSound.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="View.class" tooltip="android.view.View">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=ChameleonsMealTime/C:\/Users\/g_vista\/Desktop\/AndroidProject\/eclipse\/sdk\/platforms\/android-8\/android.jar&lt;android.view(View.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AndroidMusic.java" tooltip="BaseProjectFramework/src/Class/AndroidMusic.java">
+<persistable path="/BaseProjectFramework/src/Class/AndroidMusic.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tongue.java" tooltip="ChameleonsMealTime/src/jp/ac/kobedenshi/gamesoft/j_mizuno13/Tongue.java">
-<persistable path="/ChameleonsMealTime/src/jp/ac/kobedenshi/gamesoft/j_mizuno13/Tongue.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Title.java" tooltip="ChameleonsMealTime/src/jp/ac/kobedenshi/gamesoft/j_mizuno13/Title.java">
-<persistable path="/ChameleonsMealTime/src/jp/ac/kobedenshi/gamesoft/j_mizuno13/Title.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShowMessage.java" tooltip="ChameleonsMealTime/src/jp/ac/kobedenshi/gamesoft/j_mizuno13/ShowMessage.java">
-<persistable path="/ChameleonsMealTime/src/jp/ac/kobedenshi/gamesoft/j_mizuno13/ShowMessage.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="File.java" tooltip="ChameleonsMealTime/src/jp/ac/kobedenshi/gamesoft/j_mizuno13/File.java">
-<persistable path="/ChameleonsMealTime/src/jp/ac/kobedenshi/gamesoft/j_mizuno13/File.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AndroidAudio.java" tooltip="BaseProjectFramework/src/Class/AndroidAudio.java">
+<persistable path="/BaseProjectFramework/src/Class/AndroidAudio.java"/>
 </file>
 </mruList>
 </workbench>

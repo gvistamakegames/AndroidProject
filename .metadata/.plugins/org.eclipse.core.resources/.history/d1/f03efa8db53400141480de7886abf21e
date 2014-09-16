@@ -1,8 +1,0 @@
-package com.baseproject.framework;
-
-// ピクセルマップインターフェース
-public interface Pixmap {
-
-	
-	
-}

@@ -1,8 +1,0 @@
-package com.baseproject.framework;
-
-// サウンドインターフェース
-public interface Sound {
-
-	
-	
-}

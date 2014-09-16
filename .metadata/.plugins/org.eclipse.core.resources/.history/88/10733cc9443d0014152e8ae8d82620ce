@@ -1,0 +1,5 @@
+package com.baseproject.framework.Interface;
+
+public interface TouchHandler {
+
+}

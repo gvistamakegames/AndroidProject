@@ -11,4 +11,8 @@
 <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
 <fullyQualifiedTypeName name="com.baseproject.framework.Interface.Graphics.PixmapFormat"/>
 <fullyQualifiedTypeName name="com.baseproject.framework.Interface.FileIO"/>
+<fullyQualifiedTypeName name="com.baseproject.framework.Interface.Input.KeyEvent"/>
+<fullyQualifiedTypeName name="Class.Pool"/>
+<fullyQualifiedTypeName name="Class.Pool.PoolObjectFactory"/>
+<fullyQualifiedTypeName name="android.view.KeyEvent"/>
 </qualifiedTypeNameHistroy>

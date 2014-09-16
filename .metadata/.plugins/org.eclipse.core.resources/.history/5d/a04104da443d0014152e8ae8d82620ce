@@ -1,0 +1,16 @@
+package com.baseproject.framework.Interface;
+
+import java.util.List;
+
+import android.view.View.OnTouchListener;
+
+import com.baseproject.framework.Interface.Input.TouchEvent;
+
+public interface TouchHandler {
+
+	
+	
+	
+	
+	
+}

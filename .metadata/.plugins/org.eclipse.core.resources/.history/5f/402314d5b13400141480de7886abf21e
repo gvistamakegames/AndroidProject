@@ -1,5 +1,0 @@
-package com.baseproject.framework;
-
-public interface Audio {
-
-}

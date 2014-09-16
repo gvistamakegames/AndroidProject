@@ -10,7 +10,7 @@ import com.baseproject.framework.Interface.Input.KeyEvent;
 import Class.Pool;
 import Class.Pool.PoolObjectFactory;
 
-// キーボードハンドラークラス
+//
 public class KeyboardHandler implements OnKeyListener {
 
 	// 変数宣言
@@ -130,5 +130,6 @@ public class KeyboardHandler implements OnKeyListener {
 		}
 		
 	}
+	
 	
 }
