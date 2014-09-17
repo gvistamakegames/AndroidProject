@@ -1,0 +1,40 @@
+package Class;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.view.MotionEvent;
+import android.view.View;
+
+import Class.Pool;
+import com.baseproject.framework.Interface.Input.TouchEvent;
+import Class.Pool.PoolObjectFactory;
+
+import com.baseproject.framework.Interface.TouchHandler;
+
+// シングルタッチハンドラークラス
+public class SingleTouchHandler implements TouchHandler {
+
+	// 変数宣言
+	boolean isTouched;
+	
+	int touchX;
+	int touchY;
+	
+	Pool<TouchEvent> touchEventPool;
+	
+	List<TouchEvent> touchEvents = new ArrayList<TouchEvent>();
+	List<TouchEvent> touchEventBuffer = new ArrayList<TouchEvent>();
+	
+	float scaleX;
+	float scaleY;
+	
+	//
+	public SingleTouchHandler( View _view, float _scaleX, float _scaleY ){
+		
+		PoolObjectFactory<TouchEvent>
+		
+	}
+	
+	
+}
