@@ -14,8 +14,8 @@
 <fullyQualifiedTypeName name="com.baseproject.framework.Interface.Input.KeyEvent"/>
 <fullyQualifiedTypeName name="android.view.KeyEvent"/>
 <fullyQualifiedTypeName name="Class.Pool.PoolObjectFactory"/>
-<fullyQualifiedTypeName name="com.baseproject.framework.Interface.TouchHandler"/>
 <fullyQualifiedTypeName name="Class.Pool"/>
 <fullyQualifiedTypeName name="com.baseproject.framework.Interface.Input"/>
 <fullyQualifiedTypeName name="com.baseproject.framework.Interface.Input.TouchEvent"/>
+<fullyQualifiedTypeName name="com.baseproject.framework.Interface.TouchHandler"/>
 </qualifiedTypeNameHistroy>
