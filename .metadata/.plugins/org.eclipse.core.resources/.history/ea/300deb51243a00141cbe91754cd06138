@@ -1,8 +1,0 @@
-package Class;
-
-import android.media.SoundPool;
-
-
-public class AndroidSound {
-
-}

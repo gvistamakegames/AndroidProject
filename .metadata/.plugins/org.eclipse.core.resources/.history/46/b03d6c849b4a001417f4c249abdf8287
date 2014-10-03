@@ -21,21 +21,9 @@ public class MultiTouchHandler implements TouchHandler {
 	Pool<TouchEvent> touchEventPool;
 	List<TouchEvent> touchEvents = new ArrayList<TouchEvent>();
 	List<TouchEvent> touchEventsBuffer = new ArrayList<TouchEvent>();
-	float scaleX;
-	float scaleY;
 	
-	// 
-	public MultiTouchHandler( View _view, float _scaleX, float _scaleY ) {
-		
-		PoolObjectFactory<TouchEvent> factory = new PoolObjectFactory<TouchEvent>() {
-			
-			
-			
-			
-		};
-		
-		
-	}
+	
+	
 	
 	
 

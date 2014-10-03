@@ -30,8 +30,6 @@ public class MultiTouchHandler implements TouchHandler {
 		PoolObjectFactory<TouchEvent> factory = new PoolObjectFactory<TouchEvent>() {
 			
 			
-			
-			
 		};
 		
 		
