@@ -7,7 +7,7 @@ public interface Graphics {
 	//
 	public static enum PixmapFormat {
 		
-		ARGB8888, ATGB4444, RGB565
+		ARGB8888, ARGB4444, RGB565
 		
 	}
 	
@@ -15,7 +15,7 @@ public interface Graphics {
 	public Pixmap newPixmap( String _fileName, PixmapFormat _format );
 	
 	//
-	public void clean( int _color );
+	public void clear( int _color );
 	
 	//
 	public void drawPixel( int _x, int _y, int _color );

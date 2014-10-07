@@ -1,0 +1,136 @@
+package Class;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+import android.content.res.AssetManager;
+import android.graphics.Bitmap;
+
+import android.graphics.Bitmap.Config;
+import android.graphics.BitmapFactory;
+import android.graphics.BitmapFactory.Options;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.Paint.Style;
+import android.graphics.Rect;
+
+import com.baseproject.framework.Interface.Graphics;
+import com.baseproject.framework.Interface.Pixmap;
+
+// 
+public class AndroidGraphics implements Graphics {
+
+	// •Ï”éŒ¾
+	AssetManager assets;
+	Bitmap frameBuffer;
+	Canvas canvas;
+	Paint paint;
+	Rect srcRect = new Rect();
+	Rect dstRect = new Rect();
+	
+	// 
+	public AndroidGraphics( AssetManager _assets, Bitmap _frameBuffer ){
+		
+		this.assets = _assets;
+		this.frameBuffer = _frameBuffer;
+		this.canvas = new Canvas( _frameBuffer );
+		this.paint = new Paint();
+		
+	}
+	
+	// 
+	@Override
+	public Pixmap newPixmap( String _fileName, PixmapFormat _format ){
+		
+		// •Ï”éŒ¾
+		Config config = null;
+		
+		// 
+		if( _format == PixmapFormat.RGB565 ){
+			
+			config = Config.RGB_565;
+			
+		}else if( _format == PixmapFormat.ARGB4444 ){
+		
+			config = Config.ARGB_4444;
+			
+		}else{
+			
+			config = Config.ARGB_8888;
+			
+		}
+		
+		// •Ï”éŒ¾
+		Options options = new Options();
+		options.inPreferredConfig = config;
+		
+		InputStream in = null;
+		Bitmap bitmap = null;
+		
+		try{
+			
+			in = assets.open( _fileName );
+			bitmap = BitmapFactory.decodeStream( in );
+			
+			if( bitmap == null ){
+				
+				throw new RuntimeException( "Counldn't load bitmap from asset '" + _fileName + "'" );
+				
+			}
+			
+		}catch( IOException e ){
+
+			throw new RuntimeException( "Counldn't load bitmap from asset '" + _fileName + "'" );			
+			
+		}finally{
+			
+			if( in != null ){
+				
+				try{
+					
+					in.close();
+					
+				}catch( IOException e ){
+					
+				}
+				
+			}
+			
+		}
+		
+		if( bitmap.getConfig() == Config.RGB_565 ){
+			
+			_format = PixmapFormat.RGB565;
+			
+		}else if( bitmap.getConfig() == Config.ARGB_4444 ){
+			
+			_format = PixmapFormat.ARGB4444;
+			
+		}else{
+			
+			_format = PixmapFormat.ARGB8888;
+						
+		}
+		
+		return new AndroidPixmap( bitmap, _format );		
+		
+	}
+	
+	// 
+	@Override
+	public void clear( int _color ){
+		
+		canvas.drawRGB( ( _color & 0xff0000 ) >> 16, ( _color & 0xff00 ) >> 8, ( _color & 0xff ) );
+		
+	}
+	
+	// 
+	@Override
+	public void drawPixel( int _x, int _y, int _color ){
+		
+		
+		
+	}
+	
+	
+}

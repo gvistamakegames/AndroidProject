@@ -9,7 +9,6 @@
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="java.io.OutputStream"/>
 <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
-<fullyQualifiedTypeName name="com.baseproject.framework.Interface.Graphics.PixmapFormat"/>
 <fullyQualifiedTypeName name="com.baseproject.framework.Interface.FileIO"/>
 <fullyQualifiedTypeName name="com.baseproject.framework.Interface.Input.KeyEvent"/>
 <fullyQualifiedTypeName name="android.view.KeyEvent"/>
@@ -18,4 +17,8 @@
 <fullyQualifiedTypeName name="com.baseproject.framework.Interface.Input"/>
 <fullyQualifiedTypeName name="com.baseproject.framework.Interface.Input.TouchEvent"/>
 <fullyQualifiedTypeName name="com.baseproject.framework.Interface.TouchHandler"/>
+<fullyQualifiedTypeName name="android.graphics.AvoidXfermode"/>
+<fullyQualifiedTypeName name="android.graphics.Bitmap"/>
+<fullyQualifiedTypeName name="com.baseproject.framework.Interface.Graphics.PixmapFormat"/>
+<fullyQualifiedTypeName name="Class.AndroidGame"/>
 </qualifiedTypeNameHistroy>

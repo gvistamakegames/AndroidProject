@@ -1,0 +1,10 @@
+package Class;
+
+import android.graphics.Bitmap;
+
+
+
+
+public class AndroidFastRenderView {
+
+}

@@ -1,0 +1,10 @@
+package Class;
+
+import android.graphics.Bitmap;
+
+import com.baseproject.framework.Interface.Graphics.PixmapFormat;
+import com.baseproject.framework.Interface.Pixmap;
+
+public class AndroidPixmap {
+
+}
