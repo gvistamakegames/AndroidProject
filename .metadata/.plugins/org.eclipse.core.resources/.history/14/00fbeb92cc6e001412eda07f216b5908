@@ -1,0 +1,129 @@
+package AddClass;
+
+import java.util.List;
+import com.baseproject.framework.Interface.Game;
+import com.baseproject.framework.Interface.Graphics;
+import com.baseproject.framework.Interface.Input.TouchEvent;
+import com.baseproject.framework.Interface.Screen;
+
+public class MainMenuScreen extends Screen {
+
+	public MainMenuScreen( Game _game ){
+		
+		super( _game );
+		
+	}
+	
+	@Override
+	public void update( float _deltaTime ){
+		
+		Graphics g = game.getGraphics();
+		List<TouchEvent> touchEvents = game.getInput().getTouchEvents();
+		game.getInput().getKeyEvents();
+		
+		int len = touchEvents.size();
+		
+		for( int i = 0; i < len; i++ ){
+			
+			TouchEvent event = touchEvents.get( i );
+			if( event.type == TouchEvent.TOUCH_UP ){
+				
+				// 
+				if( inBounds( event, 0, g.getHeight() - 64, 64, 64 ) ){
+					
+					Settings.soundEnabled = !Settings.soundEnabled;
+					if( Settings.soundEnabled ){
+						
+						Assets.click.play( 1 );
+						
+					}
+					
+				}
+
+				// 
+				if( inBounds( event, 64, 220, 192, 42 ) ){
+
+					game.setScreen( new GameScreen( game ) );					
+					if( Settings.soundEnabled ){
+						
+						Assets.click.play( 1 );							
+													
+					}
+					
+					return;
+					
+				}
+				
+				// 
+				if( inBounds( event, 64, 220 + 42, 192, 42 ) ){
+
+					game.setScreen( new HighscoreScreen( game ) );					
+					if( Settings.soundEnabled ){
+						
+						Assets.click.play( 1 );							
+													
+					}
+					
+					return;
+					
+				}
+				
+				// 
+				if( inBounds( event, 64, 220 + 84, 192, 42 ) ){
+
+					game.setScreen( new HelpScreen( game ) );					
+					if( Settings.soundEnabled ){
+						
+						Assets.click.play( 1 );							
+													
+					}
+					
+					return;
+					
+				}
+								
+			}
+			
+		}
+		
+	}
+	
+	// 
+	private boolean inBounds( TouchEvent _event, int _x, int _y, int _width, int _height ){
+		
+		if( ( _event.x > _x && _event.x < _x + _width - 1 ) && ( _event.y > _y && _event.y < _y + _height - 1 ) ){
+			
+			return true;
+			
+		}else{
+			
+			return false;
+			
+		}
+		
+	}
+	
+	//
+	@Override
+	public void present( float _deltaTime ){
+		
+		Graphics g = game.getGraphics();
+		g.drawPixmap( Assets.background, 0, 0 );
+		g.drawPixmap( Assets.logo, 32, 20 );
+		g.drawPixmap( Assets.mainMenu, 64, 220 );
+		if( Settings.soundEnabled ){
+			
+			
+			
+		}else{
+			
+			
+			
+		}
+		
+	}
+	
+	
+	
+	
+}

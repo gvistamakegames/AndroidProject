@@ -1,0 +1,12 @@
+package AddClass;
+
+import com.baseproject.framework.Interface.Game;
+import com.baseproject.framework.Interface.Graphics;
+import com.baseproject.framework.Interface.Input.TouchEvent;
+import com.baseproject.framework.Interface.Screen;
+
+import AddClass.HelpScreen3;
+
+public class HelpScreen2 {
+
+}

@@ -1,0 +1,20 @@
+package AddClass;
+
+import java.util.List;
+import com.baseproject.framework.Interface.Game;
+import com.baseproject.framework.Interface.Graphics;
+import com.baseproject.framework.Interface.Input.TouchEvent;
+import com.baseproject.framework.Interface.Screen;
+
+public class MainMenuScreen extends Screen {
+
+	public MainMenuScreen( Game _game ){
+		
+		super( _game );
+		
+	}
+	
+	@Override
+	
+	
+}

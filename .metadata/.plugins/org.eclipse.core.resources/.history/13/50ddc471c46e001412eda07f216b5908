@@ -1,0 +1,16 @@
+package AddClass;
+
+import com.baseproject.framework.Interface.Game;
+import com.baseproject.framework.Interface.Graphics;
+import com.baseproject.framework.Interface.Screen;
+import com.baseproject.framework.Interface.Graphics.PixmapFormat;
+
+public class LoadingScreen extends Screen {
+
+	public LoadingScreen( Game _game ){
+		
+		super( _game );
+		
+	}
+	
+}

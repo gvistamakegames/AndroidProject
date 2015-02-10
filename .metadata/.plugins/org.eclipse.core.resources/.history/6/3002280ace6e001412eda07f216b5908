@@ -1,0 +1,21 @@
+package AddClass;
+
+import java.util.List;
+
+import com.baseproject.framework.Interface.Game;
+import com.baseproject.framework.Interface.Graphics;
+import com.baseproject.framework.Interface.Input.TouchEvent;
+import com.baseproject.framework.Interface.Screen;
+
+public class HelpScreen1 extends Screen {
+
+	public HelpScreen1( Game _game ){
+		
+		super( _game );
+		
+	}
+	
+	@Override
+	
+	
+}

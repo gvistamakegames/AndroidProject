@@ -1,0 +1,12 @@
+package AddClass;
+
+public class SnakePart {
+
+	public SnakePart( int _x, int _y ){
+		
+		
+	}
+	
+	
+	
+}

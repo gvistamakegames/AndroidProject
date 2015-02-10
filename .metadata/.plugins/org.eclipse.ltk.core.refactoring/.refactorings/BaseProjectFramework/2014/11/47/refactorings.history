@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="2 個の要素を &apos;ProjectAndroidGames/src/AddClass&apos; にコピー&#x0D;&#x0A;- 元のプロジェクト: &apos;BaseProjectFramework&apos;&#x0D;&#x0A;- 宛先要素: &apos;ProjectAndroidGames/src/AddClass&apos;&#x0D;&#x0A;- オリジナル要素:&#x0D;&#x0A;     AddClass.Assets.java&#x0D;&#x0A;     AddClass.Settings.java" description="コンパイル単位をコピー" destination="=ProjectAndroidGames/src&lt;AddClass" element1="/src&lt;AddClass{Assets.java" element2="/src&lt;AddClass{Settings.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1416274818294" units="2" version="1.0"/>
+</session>

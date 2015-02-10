@@ -14,11 +14,21 @@
 <fullyQualifiedTypeName name="android.view.KeyEvent"/>
 <fullyQualifiedTypeName name="Class.Pool.PoolObjectFactory"/>
 <fullyQualifiedTypeName name="Class.Pool"/>
-<fullyQualifiedTypeName name="com.baseproject.framework.Interface.Input"/>
-<fullyQualifiedTypeName name="com.baseproject.framework.Interface.Input.TouchEvent"/>
 <fullyQualifiedTypeName name="com.baseproject.framework.Interface.TouchHandler"/>
 <fullyQualifiedTypeName name="android.graphics.AvoidXfermode"/>
 <fullyQualifiedTypeName name="android.graphics.Bitmap"/>
-<fullyQualifiedTypeName name="com.baseproject.framework.Interface.Graphics.PixmapFormat"/>
+<fullyQualifiedTypeName name="android.graphics.Bitmap.Config"/>
+<fullyQualifiedTypeName name="android.os.PowerManager"/>
+<fullyQualifiedTypeName name="android.os.PowerManager.WakeLock"/>
+<fullyQualifiedTypeName name="android.view.WindowManager"/>
+<fullyQualifiedTypeName name="android.view.WindowManager.LayoutParams"/>
 <fullyQualifiedTypeName name="Class.AndroidGame"/>
+<fullyQualifiedTypeName name="com.baseproject.framework.Interface.Graphics.PixmapFormat"/>
+<fullyQualifiedTypeName name="com.baseproject.framework.Interface.Input"/>
+<fullyQualifiedTypeName name="com.baseproject.framework.Interface.Screen"/>
+<fullyQualifiedTypeName name="AddClass.HelpScreen2"/>
+<fullyQualifiedTypeName name="AddClass.LoadingScreen"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="android.graphics.Color"/>
+<fullyQualifiedTypeName name="com.baseproject.framework.Interface.Input.TouchEvent"/>
 </qualifiedTypeNameHistroy>

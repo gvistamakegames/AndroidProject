@@ -1,0 +1,30 @@
+package AddClass;
+
+import com.baseproject.framework.Interface.Game;
+import com.baseproject.framework.Interface.Graphics;
+import com.baseproject.framework.Interface.Screen;
+import com.baseproject.framework.Interface.Graphics.PixmapFormat;
+
+public class LoadingScreen extends Screen {
+
+	public LoadingScreen( Game _game ){
+		
+		super( _game );
+		
+	}
+	
+	@Override
+	public void update( float _deltaTime ){
+		
+		Graphics g = game.getGraphics();
+		// ファイル名は不定、変更時は注意！
+		Assets.background = g.newPixmap( "background.png", PixmapFormat.RGB565 );
+		Assets.logo = g.newPixmap( "logo.png", PixmapFormat.ARGB4444 );
+		Assets.mainMenu = g.newPixmap( "mainmenu.png", PixmapFormat.ARGB4444 );
+		
+		
+		
+		
+	}
+	
+}
